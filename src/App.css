@@ -1,0 +1,84 @@
+.App {
+  text-align: center; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 25px; }
+  .header h1 {
+    margin-left: 160px; }
+
+#recipe-tabs {
+  width: 720px;
+  margin: auto;
+  border: 1px solid orange; }
+
+a[id^="recipe-tabs-tab"] {
+  background: beige; }
+
+.list-group .list-group-item {
+  border: 0; }
+
+.recipe-header {
+  height: 50px;
+  margin-top: 25px; }
+  .recipe-header .recipe-title {
+    font-size: 1.5em;
+    margin-top: 10px;
+    width: 75%; }
+  .recipe-header .editButton {
+    float: left;
+    margin-left: 35px;
+    height: 50px; }
+  .recipe-header .recipe-title {
+    margin-left: 22px; }
+
+.recipe-detail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: left;
+  overflow: hidden;
+  transition: 400ms ease-in-out; }
+  .recipe-detail section {
+    width: 33.3%;
+    padding: 0.5em;
+    margin: 1em; }
+  .recipe-detail ul, .recipe-detail ol {
+    text-align: left; }
+  .recipe-detail ul {
+    list-style-type: disc; }
+  .recipe-detail ol {
+    list-style-type: decimal; }
+    .recipe-detail ol li {
+      margin-bottom: 5px; }
+
+.addRecipeForm {
+  height: 69px; }
+  .addRecipeForm .addRecipeBtn {
+    margin-top: 22px; }
+
+.control-label {
+  float: left; }
+
+footer {
+  width: 100%; }
