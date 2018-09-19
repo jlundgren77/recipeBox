@@ -43,10 +43,10 @@ export default class EditRecipe extends Component {
 						aria-labelledby="contained-modal-title"
 					>
 						<Modal.Header closeButton>
-							<Modal.Title id="contained-modal-title">Edit Recipe</Modal.Title>
+							<Modal.Title id="contained-modal-title">Edit Your Recipe</Modal.Title>
 						</Modal.Header>
 						<Modal.Body>
-							Edit form here
+							
 							<EditRecipeForm 
 								onEdit={this.editRecipe}
 								name={this.props.name}

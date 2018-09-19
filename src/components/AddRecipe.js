@@ -70,10 +70,10 @@ export default class AddRecipe extends Component {
 					aria-labelledby="contained-modal-title"
 				>
 					<Modal.Header closeButton>
-						<Modal.Title id="contained-modal-title">Contained Modal</Modal.Title>
+						<Modal.Title id="contained-modal-title">Add a Recipe</Modal.Title>
 					</Modal.Header>
 					<Modal.Body>
-							Add form here
+							
 							<AddRecipeForm onAdd={this.addRecipe}/>
 					</Modal.Body>
 					<Modal.Footer>
